@@ -17,7 +17,7 @@ body {
     background-color:$vermelhoTotalRental;
     font-family: $ubuntu;
     font-size: 13px;
-    color:$fontLight;
+    color:$fontDefault;
 }
 
 .container{
@@ -43,4 +43,31 @@ header nav li{margin-left:10px;}
     font-size: 15px;
     font-weight: bold;
     color: $vermelhoTotalRental !important;
+}
+
+.slide{
+    margin-bottom:20px !important;
+}
+
+.pagina-principal{
+    margin-top:20px;
+    margin-bottom:50px;
+}
+
+    .pagina-principal h1{
+        font-family: $titliumWeb;
+        font-size: 36px;
+        line-height: 54px;
+        color: $vermelhoTotalRental;
+    }
+
+    .pagina-principal p{
+        font-family: $ubuntu;
+        font-size: 21px;
+        line-height: 28px;
+        text-align: justify;
+    }
+
+.vantagens{
+    margin-top:20px;
 }
