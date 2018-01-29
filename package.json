@@ -1,0 +1,25 @@
+{
+  "name": "totalrental",
+  "version": "1.0.0",
+  "description": "Site da \u0014otal Rental\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[DTo\u001b[2~t\u001b[2~al Rental",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roofranklin/totalRental.git"
+  },
+  "author": "Roosevelt Franklin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/roofranklin/totalRental/issues"
+  },
+  "homepage": "https://github.com/roofranklin/totalRental#readme",
+  "devDependencies": {
+    "browser-sync": "^2.23.6",
+    "browsersync": "0.0.1-security",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0"
+  }
+}

@@ -1,0 +1,25 @@
+//Main CSS 
+     
+//Fonts
+$ubuntu: 'Ubuntu', sans-serif;
+$playFair: 'Playfair Display', serif;
+$lato: 'Lato', sans-serif;
+
+
+// Colors 
+$darkBG:#222222;
+$lightBG: #ffffff;
+$fontDefault: #242424;
+$fontBlack: #121212;
+$fontLight: #969696;
+$fontGold: #D39850;
+$purpleButton: #951A91;
+$greenButton: #0BBBA8;
+
+// Body
+body {
+    background-color:$darkBG;
+    font-family: $ubuntu;
+    font-size: 13px;
+    color:$fontLight;
+}
