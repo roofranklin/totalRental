@@ -2,24 +2,45 @@
      
 //Fonts
 $ubuntu: 'Ubuntu', sans-serif;
-$playFair: 'Playfair Display', serif;
-$lato: 'Lato', sans-serif;
+$titliumWeb: 'Titillium Web', sans-serif;
 
 
 // Colors 
-$darkBG:#222222;
-$lightBG: #ffffff;
+$vermelhoTotalRental:#821A1D;
+$lightBG: #f1f1f1;
 $fontDefault: #242424;
-$fontBlack: #121212;
+$fontBlack: #000000;
 $fontLight: #969696;
-$fontGold: #D39850;
-$purpleButton: #951A91;
-$greenButton: #0BBBA8;
 
 // Body
 body {
-    background-color:$darkBG;
+    background-color:$vermelhoTotalRental;
     font-family: $ubuntu;
     font-size: 13px;
     color:$fontLight;
+}
+
+.container{
+    background-color: $lightBG;
+}
+
+.logo{
+    height: 93px;
+    margin-left:20px;
+    margin-top:7px;
+    margin-bottom:10px;
+}
+
+header nav{
+    font-family: $titliumWeb;
+    text-transform: uppercase;
+}
+
+header nav ul{ margin-left:30px;}
+header nav li{margin-left:10px;}
+
+.nav-link{
+    font-size: 15px;
+    font-weight: bold;
+    color: $vermelhoTotalRental !important;
 }
