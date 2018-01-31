@@ -70,4 +70,45 @@ header nav li{margin-left:10px;}
 
 .vantagens{
     margin-top:20px;
+    margin-bottom:50px;
 }
+
+    .vantagens li{
+        font-family: $ubuntu;
+        font-size: 14px;
+        line-height: 21px;
+        list-style-type: square;
+        padding-left:10px;
+    }
+
+.footer{
+    background-color: $vermelhoTotalRental !important;
+    margin-top:-20px;
+    text-align: center;
+}
+
+    .footer h2{
+        color:#ffffff;
+        font-family: $titliumWeb;
+        font-size: 24px;
+    }
+
+    .footer li{
+        list-style-type: none;
+        margin-left:-40px;
+    }
+
+    .footer a{
+        color:#ffffff;
+        font-family: $ubuntu;
+        text-decoration:none;
+        font-size: 14px;
+        line-height:28px;
+    }
+
+    .footer p{
+        color: #ffffff;
+        font-family: $titliumWeb;
+        margin-top:40px;
+        font-size: 14px;
+    }
